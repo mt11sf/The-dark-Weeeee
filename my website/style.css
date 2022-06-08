@@ -1,0 +1,27 @@
+body
+{
+	background-color: #101837;
+	color: white;
+	
+	
+}
+::-webkit-Scrollbar
+{
+	width: 20px;
+}
+::-webkit-Scrollbar-track
+{
+	background: #dddddd;
+}
+::-webkit-Scrollbar-thumb
+{
+	background:red;
+
+}
+h1
+{
+	font-family: Times New Roman;
+	text-align:center;
+	color: yellow;
+	border: 3px green solid;
+}

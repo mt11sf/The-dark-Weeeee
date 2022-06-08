@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+ <html>
+     <head>
+	 <meta charset="utf-8">
+	      <link rel="stylesheet" href=style.css >
+		  
+	 <title> The dark web</title>
+	 </head>
+	 <body>
+	 
+	<h1>  Page d'inscription  </h1>
+<p> Pour s'inscrire, veuillez remplir le formulaire ci dessous:</p>
+
+   <?php
+    
+  
+    <form method="post" action="inscription.php">
+        Pseudo (a-z0-9) : <input type="text" name="pseudo">
+        <br />
+        Mot de passe : <input type="password" name="mdp">
+        <br />
+        <input type="submit" value="S'inscrire" >
+    </form>
+    <?php
+}
+?>
+  <h2> aidez nous en répondant aux questions suivantes  : </h2>
+<form method="post" action="traitement.php">
+   <p>
+       <label for="pays">Dans quel pays habitez-vous ?</label><br />
+       <select name="pays" id="pays">
+           <option value="Maroc">Maroc</option>
+           <option value="Turquie">Turquie</option>
+           <option value="Syrie">Syrie</option>
+           <option value="Royaume-uni">Royaume-Uni</option>
+           <option value="Canada">Canada</option>
+           <option value="Belgique">Belgique</option>
+           <option value="Chine">Chine</option>
+           <option value="Algérie">Algérie</option>
+       </select>
+   </p>
+</form>
+
+   <p>
+       <label for="Age">Quel est  votre age ?</label><br />
+       <select name="pays" id="pays">
+           <option value="Entre 10 ans et 18 ans">Entre 10 ans et 18 ans</option>
+           <option value="Entre 18 ans et 30 ans">Entre 18 ans et 30 ans</option>
+           <option value="Plus que 30 ans">Plus que 30 ans</option>
+        
+</form>
+
+   </body>
+   
+	 </html>
